@@ -1,0 +1,43 @@
+.layout {
+  // background-color: aqua;
+  .header {
+    background-color: @pui-base-color;
+  };
+  .mainContainer {
+    padding-top: @pui-nav-height;
+  };
+  .footer {
+    background-color: @pui-base-color
+  }
+}
+
+.logo {
+  line-height: @pui-nav-height;
+  padding: 0 30px;
+  font-size: @pui-nav-menu-font-size;
+  float: left;
+  background: @pui-base-color !important;
+  color: @pui-base-color !important;
+  img {
+    height: 33px;
+    width: 120px;
+  }
+}
+
+.nav {
+  position: fixed;
+  width: 100%;
+  background-color: @pui-base-color;
+  box-shadow: 0 0 5px #b9b9b9;
+}
+
+.navMenu {
+  display: inline-block;
+  line-height: @pui-nav-height;
+  padding: 0 @pui-nav-menu-padding-vertical;
+  font-size: @pui-nav-menu-font-size;
+  &:hover {
+    background-color: @pui-select-color;
+    color: @pui-base-color;
+  }
+}
